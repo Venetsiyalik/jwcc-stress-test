@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Perturbation stress test of a data-driven dekadal streamflow model"
+authors:
+  - family-names: Nasridinov
+    given-names: Rustamjon B.
+    orcid: "https://orcid.org/0009-0003-2422-9029"
+    affiliation: "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi"
+version: 1.0.0
+license: MIT
+preferred-citation:
+  type: article
+  title: "Can tree-based streamflow models respond to climate change they never saw? A perturbation stress test in nine Central Asian mountain basins"
+  authors:
+    - family-names: Nasridinov
+      given-names: Rustamjon B.
+  journal: "Journal of Water and Climate Change"
+  year: 2026

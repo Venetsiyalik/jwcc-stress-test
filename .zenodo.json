@@ -1,0 +1,21 @@
+{
+  "title": "Perturbation stress test of a data-driven dekadal streamflow model in nine Central Asian mountain basins",
+  "description": "Code accompanying Nasridinov (2026), 'Can tree-based streamflow models respond to climate change they never saw? A perturbation stress test in nine Central Asian mountain basins', submitted to Journal of Water and Climate Change. Applies delta-change perturbations of temperature and precipitation to a gradient-boosted dekadal streamflow ensemble without retraining, and compares its response against an uncalibrated degree-day water balance forced identically.",
+  "license": "MIT",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Nasridinov, Rustamjon B.",
+      "affiliation": "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi",
+      "orcid": "0009-0003-2422-9029"
+    }
+  ],
+  "keywords": [
+    "streamflow forecasting",
+    "climate transferability",
+    "delta-change perturbation",
+    "gradient boosting",
+    "snowmelt regime",
+    "Central Asia"
+  ]
+}
