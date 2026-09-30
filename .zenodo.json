@@ -1,21 +1,15 @@
 {
-  "title": "Perturbation stress test of a data-driven dekadal streamflow model in nine Central Asian mountain basins",
-  "description": "Code accompanying Nasridinov (2026), 'Can tree-based streamflow models respond to climate change they never saw? A perturbation stress test in nine Central Asian mountain basins', submitted to Journal of Water and Climate Change. Applies delta-change perturbations of temperature and precipitation to a gradient-boosted dekadal streamflow ensemble without retraining, and compares its response against an uncalibrated degree-day water balance forced identically.",
-  "license": "MIT",
+  "title": "Design, benchmark, or model? Code for climate stress tests of data-driven streamflow models in Central Asian mountain basins (v2.0.0)",
+  "version": "2.0.0",
   "upload_type": "software",
+  "license": "MIT",
+  "description": "Code accompanying the paper 'Design, benchmark, or model? Disentangling the apparent climate insensitivity of data-driven streamflow models in Central Asian mountain basins' (submitted to Acta Geophysica). Version 2.0 decomposes the climate response of XGBoost, random forest, ridge regression and LSTM models under three simulation modes and three perturbation schemes in nine snow- and glacier-fed basins, compares it with degree-day and elevation-banded HBV benchmarks with and without glaciers, and verifies the design in a virtual laboratory with known truth. Version 1.0 contains the earlier single-model stress test.",
   "creators": [
     {
-      "name": "Nasridinov, Rustamjon B.",
-      "affiliation": "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi",
-      "orcid": "0009-0003-2422-9029"
+      "name": "Nasridinov, Rustamjon",
+      "orcid": "0009-0003-2422-9029",
+      "affiliation": "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi"
     }
   ],
-  "keywords": [
-    "streamflow forecasting",
-    "climate transferability",
-    "delta-change perturbation",
-    "gradient boosting",
-    "snowmelt regime",
-    "Central Asia"
-  ]
+  "keywords": ["climate stress test", "machine learning", "streamflow", "snowmelt", "glaciers", "HBV", "virtual laboratory", "Central Asia"]
 }
